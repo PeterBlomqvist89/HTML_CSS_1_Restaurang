@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boka bord</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+    <div class="topnav">
+        <a href="./index.html">Home</a>
+        <a href="./meny.html">Meny</a>
+        <a class="active" href="#boka-bord">Boka bord</a>
+        <a href="./om-oss.html">Om oss</a>
+
+    </div>
+    <h1>Boka bord</h1>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Contact us</legend>
+                <div>
+                    <label for="name">Name</label><br>
+                    <input
+                    name="name"
+                    placeholder="Ditt namn"
+                    required
+                    >
+                </div>
+                <div>
+                    <label for="how-many">
+                        Hur många
+                    </label><br>
+                    <input 
+                        name="how-many" 
+                        placeholder="tex 2 personer" 
+                        type="number"
+                        min="0"
+                        required
+                    >
+            
+                </div>
+                <br>
+                
+                <br>
+                <div>
+                    <a>Meddelande</a>
+                    <label for="message"></label><br>
+                    <textarea name="message" id="" cols="30" rows="10" required></textarea>
+                </div>
+                <br><br>
+                <button type="submit">Send message</button>
+            </fieldset>
+    
+        </form>
+    
+    </section>
+    
+    
+
+</body>
+</html>
