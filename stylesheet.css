@@ -81,3 +81,9 @@ legend{
 label{
     color: white;
   }
+  fieldset {
+    margin:auto;
+    width:400px;
+    text-align: center;
+}
+ 
