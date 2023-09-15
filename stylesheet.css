@@ -1,10 +1,16 @@
-.topnav{
-    background-color: rgb(48, 48, 54);
-    overflow: hidden;
+*{
+  font-family: 'Times New Roman';
+  box-sizing: border-box;
 }
+body{
+  background-color:rgb(43, 51, 46)
+}
+.topnav{
+    overflow: hidden;
+  }
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #eeeeee;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -15,20 +21,63 @@
     color: black;
   }
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #cab814;
     color: white;
   }
-  p{
-    text-align: center;
+p{
+  text-align: center;
+  color:white;
+ }
+.center{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
   }
-
-  h1{
+h1{
     text-align: center;
+    text-decoration: underline;
+    color:#f5e026;
+    font-size: 50px;
   }
-  .center{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color:#f5e026;
+    font-size: 40px;
+  }
+h3{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+  }
+h4{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+  }
+p{
+    color:white;
+    font-size: 22px;
+  }
+a{
+    text-decoration: underline;
+    color:#f5e026;
+    font-size: 26px;
+  }
+ul{
+    color:white;
+  }
+div.öppettider{
+  text-align: center;
+  }
+ul.myUl{
+    display:inline-block;
+    text-align: left;
+  }
+legend{
+    background-color: #c4b210;
+    color:white;
+  }
+label{
+    color: white;
   }

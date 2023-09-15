@@ -13,13 +13,15 @@
         <a href="./om-oss.html">Om oss</a>
 
     </div>
-    <h1>Boka bord</h1>
+    <h2>Boka bord</h2>
     <section>
         <form>
             <fieldset>
                 <legend>Contact us</legend>
                 <div>
-                    <label for="name">Name</label><br>
+                    <label for="name">
+                        Namn:
+                    </label><br>
                     <input
                     name="name"
                     placeholder="Ditt namn"
@@ -28,16 +30,30 @@
                 </div>
                 <div>
                     <label for="how-many">
-                        Hur många
+                        Hur många:
                     </label><br>
                     <input 
                         name="how-many" 
                         placeholder="tex 2 personer" 
                         type="number"
                         min="0"
-                        required
+                        required                       
                     >
-            
+                <div>
+                    <label for="Date">
+                        Datum:
+                    </label><br>
+                    <input type="date"
+                    required
+                    >
+                </div>
+                <div>
+                    <label for="appt">
+                        Välj vilken tid:
+                    </label><br>
+                    <input type="time" id="appt" name="appt">
+
+                </div>
                 </div>
                 <br>
                 
@@ -48,7 +64,8 @@
                     <textarea name="message" id="" cols="30" rows="10" required></textarea>
                 </div>
                 <br><br>
-                <button type="submit">Send message</button>
+                <button type="submit">Boka här</button>
+                <button type="reset">Börja om</button>
             </fieldset>
     
         </form>
