@@ -84,14 +84,18 @@ ul.myUl{
 legend{
     background-color: #c4b210;
     color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
 label{
     color: white;
   }
   fieldset {
     margin:auto;
+    padding:20px;
     width:400px;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .container{
 display: flex;
