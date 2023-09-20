@@ -3,10 +3,11 @@
   box-sizing: border-box;
 }
 body{
-  background-color:rgb(43, 51, 46)
+  background-color:rgb(34, 100, 133)
 }
 .topnav{
     overflow: hidden;
+    
   }
 .topnav a {
     float: left;
@@ -15,6 +16,7 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    
   }
   .topnav a:hover {
     background-color: #ddd;
@@ -24,6 +26,10 @@ body{
     background-color: #cab814;
     color: white;
   }
+img{
+  border: 5px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 p{
   text-align: center;
   color:white;
@@ -36,13 +42,13 @@ p{
 h1{
     text-align: center;
     text-decoration: underline;
-    color:#f5e026;
+    color:#ffffff;
     font-size: 50px;
   }
 h2{
     text-align: center;
     text-decoration: underline;
-    color:#f5e026;
+    color:#ffffff;
     font-size: 40px;
   }
 h3{
@@ -61,7 +67,7 @@ p{
   }
 a{
     text-decoration: underline;
-    color:#f5e026;
+    color:#ffffff;
     font-size: 26px;
   }
 ul{
@@ -91,6 +97,12 @@ label{
 display: flex;
 justify-content: center;
 gap: 100px;
+flex-wrap: wrap;
+}
+.menu{
+  border:1px solid white;
+  padding: 10px;
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
  
